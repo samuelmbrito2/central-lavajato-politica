@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - Central Lava Jato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #04BBFC;
+            border-bottom: 2px solid #04BBFC;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #04BBFC;
+            margin-top: 30px;
+        }
+        p {
+            text-align: justify;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Política de Privacidade</h1>
+    <p><strong>Última atualização:</strong> Setembro de 2026</p>
+
+    <p>O aplicativo <strong>Central Lava Jato</strong> respeita a sua privacidade e está comprometido em proteger os dados pessoais dos seus usuários, estabelecimentos parceiros e clientes finais. Esta Política de Privacidade descreve como coletamos, usamos, armazenamos e protegemos as informações em conformidade com a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).</p>
+
+    <h2>1. Quem é o Controlador dos Dados?</h2>
+    <p>O estabelecimento parceiro (lava-jato, estética automotiva ou oficina) que utiliza a plataforma Central Lava Jato é o <strong>Controlador</strong> dos dados dos seus clientes. A plataforma atua como <strong>Operadora</strong>, processando os dados estritamente para a prestação dos serviços contratados.</p>
+
+    <h2>2. Quais dados coletamos e com que finalidade?</h2>
+    <p>Coletamos apenas os dados estritamente necessários para a gestão operacional e financeira do seu negócio:</p>
+    <ul>
+        <li><strong>Dados cadastrais do estabelecimento:</strong> Nome, CNPJ, endereço, telefone e e-mail (para identificação da empresa no sistema e cobrança).</li>
+        <li><strong>Dados de usuários (donos e funcionários):</strong> Nome, telefone e e-mail (para autenticação e controle de acesso).</li>
+        <li><strong>Dados de veículos e clientes finais:</strong> Placa, modelo, cor, nome do proprietário, telefone e perfil no Instagram (para execução de check-in, vistorias, ordens de serviço, emissão de recibos, envio de comprovantes via WhatsApp e gestão de CRM).</li>
+        <li><strong>Dados financeiros:</strong> Histórico de valores, formas de pagamento e transações (para controle de caixa e fluxo financeiro).</li>
+    </ul>
+
+    <h2>3. Como armazenamos e protegemos os dados?</h2>
+    <p>Utilizamos o <strong>Supabase</strong> (plataforma de banco de dados em nuvem) para armazenar os dados com criptografia em trânsito (HTTPS) e em repouso. A aplicação possui arquitetura <strong>Multi-Tenant</strong>, garantindo o isolamento absoluto dos dados entre diferentes empresas (inquilinos). O acesso ao sistema é protegido por autenticação segura com tokens JWT, senhas criptografadas e políticas rigorosas de Row Level Security (RLS).</p>
+
+    <h2>4. Compartilhamento de dados com terceiros</h2>
+    <p>Não vendemos, alugamos ou compartilhamos seus dados pessoais com terceiros não autorizados. Os dados podem ser acessados apenas:</p>
+    <ul>
+        <li><strong>Pela equipe autorizada do estabelecimento</strong> (donos e funcionários).</li>
+        <li><strong>Para envio de comprovantes</strong> via integração com o WhatsApp (a plataforma apenas gera o link para envio, não armazenando mensagens).</li>
+        <li><strong>Mediante requisição judicial ou regulatória</strong> (cumprimento de obrigação legal).</li>
+    </ul>
+
+    <h2>5. Seus direitos (LGPD)</h2>
+    <p>O titular dos dados (cliente do lava-jato) possui o direito de:</p>
+    <ul>
+        <li><strong>Confirmação e acesso:</strong> Saber quais dados seus estão sendo tratados.</li>
+        <li><strong>Correção:</strong> Solicitar a retificação de dados incompletos, inexatos ou desatualizados.</li>
+        <li><strong>Exclusão (Direito ao esquecimento):</strong> Solicitar a eliminação dos dados tratados com o seu consentimento.</li>
+        <li><strong>Portabilidade:</strong> Solicitar a transferência dos dados para outro fornecedor de serviço.</li>
+    </ul>
+    <p>Para exercer esses direitos, o cliente final deve entrar em contato diretamente com o <strong>estabelecimento parceiro</strong> (Controlador), que é o responsável legal pelo tratamento desses dados.</p>
+
+    <h2>6. Retenção dos dados</h2>
+    <p>Os dados serão mantidos pelo tempo necessário para a finalidade pela qual foram coletados, respeitando o prazo legal para obrigações fiscais e contábeis (geralmente 5 anos para documentos fiscais).</p>
+
+    <h2>7. Segurança da informação</h2>
+    <p>Adotamos práticas de segurança como:</p>
+    <ul>
+        <li>Uso de senhas fortes com hash (bcrypt).</li>
+        <li>Isolamento absoluto entre empresas (Multi-Tenant via tenant_id).</li>
+        <li>Políticas de Row Level Security (RLS) no banco de dados.</li>
+        <li>Backups automáticos e criptografia de dados.</li>
+    </ul>
+
+    <h2>8. Alterações nesta política</h2>
+    <p>Esta política pode ser atualizada periodicamente. Recomendamos que os usuários revisem esta página regularmente para se manterem informados sobre como estamos protegendo suas informações. A data da última atualização está indicada no topo desta página.</p>
+
+    <h2>9. Contato</h2>
+    <p>Em caso de dúvidas sobre esta Política de Privacidade ou sobre o tratamento dos seus dados, entre em contato conosco:</p>
+    <p><strong>E-mail de suporte:</strong> central@lavajato.com.br (Altere para o seu e-mail de suporte real antes de publicar).</p>
+
+    <div class="footer">
+        <p>© 2026 Central Lava Jato - Todos os direitos reservados.</p>
+    </div>
+</body>
+</html>
