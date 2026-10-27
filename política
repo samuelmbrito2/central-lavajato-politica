@@ -54,44 +54,46 @@
     </ul>
 
     <h2>3. Como armazenamos e protegemos os dados?</h2>
-    <p>Utilizamos o <strong>Supabase</strong> (plataforma de banco de dados em nuvem) para armazenar os dados com criptografia em trânsito (HTTPS) e em repouso. A aplicação possui arquitetura <strong>Multi-Tenant</strong>, garantindo o isolamento absoluto dos dados entre diferentes empresas (inquilinos). O acesso ao sistema é protegido por autenticação segura com tokens JWT, senhas criptografadas e políticas rigorosas de Row Level Security (RLS).</p>
+    <p>Utilizamos o <strong>Supabase</strong> (plataforma de banco de dados em nuvem) para armazenar os dados com criptografia em trânsito (HTTPS) e em repouso. A aplicação possui arquitetura <strong>Multi-Tenant</strong>, garantindo o isolamento dos dados entre diferentes empresas. O acesso ao sistema é protegido por autenticação segura com tokens JWT, senhas protegidas por hash e políticas de Row Level Security (RLS).</p>
 
     <h2>4. Compartilhamento de dados com terceiros</h2>
-    <p>Não vendemos, alugamos ou compartilhamos seus dados pessoais com terceiros não autorizados. Os dados podem ser acessados apenas:</p>
+    <p>Não vendemos, alugamos ou compartilhamos seus dados pessoais com terceiros para fins comerciais. Os dados podem ser acessados apenas:</p>
     <ul>
         <li><strong>Pela equipe autorizada do estabelecimento</strong> (donos e funcionários).</li>
         <li><strong>Para envio de comprovantes</strong> via integração com o WhatsApp (a plataforma apenas gera o link para envio, não armazenando mensagens).</li>
         <li><strong>Mediante requisição judicial ou regulatória</strong> (cumprimento de obrigação legal).</li>
+        <li><strong>Pelos prestadores de serviços tecnológicos</strong> necessários para operar o aplicativo, como os serviços de hospedagem, autenticação e armazenamento de dados.</li>
     </ul>
 
     <h2>5. Seus direitos (LGPD)</h2>
-    <p>O titular dos dados (cliente do lava-jato) possui o direito de:</p>
-    <ul>
-        <li><strong>Confirmação e acesso:</strong> Saber quais dados seus estão sendo tratados.</li>
-        <li><strong>Correção:</strong> Solicitar a retificação de dados incompletos, inexatos ou desatualizados.</li>
-        <li><strong>Exclusão (Direito ao esquecimento):</strong> Solicitar a eliminação dos dados tratados com o seu consentimento.</li>
-        <li><strong>Portabilidade:</strong> Solicitar a transferência dos dados para outro fornecedor de serviço.</li>
-    </ul>
-    <p>Para exercer esses direitos, o cliente final deve entrar em contato diretamente com o <strong>estabelecimento parceiro</strong> (Controlador), que é o responsável legal pelo tratamento desses dados.</p>
+    <p>O titular dos dados possui direito de solicitar confirmação do tratamento, acesso, correção, anonimização, bloqueio, eliminação nos casos previstos em lei e portabilidade, conforme aplicável.</p>
+    <p>Os clientes finais devem, inicialmente, procurar o estabelecimento parceiro responsável pelos dados inseridos no sistema. Para dúvidas ou solicitações relacionadas à plataforma Central Lava Jato, também é possível entrar em contato pelo e-mail informado nesta política.</p>
 
     <h2>6. Retenção dos dados</h2>
-    <p>Os dados serão mantidos pelo tempo necessário para a finalidade pela qual foram coletados, respeitando o prazo legal para obrigações fiscais e contábeis (geralmente 5 anos para documentos fiscais).</p>
+    <p>Os dados serão mantidos pelo período necessário às finalidades do tratamento e para o cumprimento de obrigações legais. Quando aplicável, a exclusão poderá respeitar os prazos de retenção exigidos pela legislação e os ciclos técnicos de backup.</p>
 
     <h2>7. Segurança da informação</h2>
-    <p>Adotamos práticas de segurança como:</p>
+    <p>Adotamos medidas técnicas e organizacionais destinadas a proteger os dados pessoais, incluindo:</p>
     <ul>
-        <li>Uso de senhas fortes com hash (bcrypt).</li>
-        <li>Isolamento absoluto entre empresas (Multi-Tenant via tenant_id).</li>
-        <li>Políticas de Row Level Security (RLS) no banco de dados.</li>
-        <li>Backups automáticos e criptografia de dados.</li>
+        <li>Proteção de senhas por mecanismos de hash.</li>
+        <li>Controle de acesso aos dados conforme as permissões dos usuários.</li>
+        <li>Políticas de Row Level Security (RLS) no banco de dados, conforme a configuração aplicável.</li>
+        <li>Uso de conexões HTTPS para comunicação com os serviços.</li>
     </ul>
 
-    <h2>8. Alterações nesta política</h2>
-    <p>Esta política pode ser atualizada periodicamente. Recomendamos que os usuários revisem esta página regularmente para se manterem informados sobre como estamos protegendo suas informações. A data da última atualização está indicada no topo desta página.</p>
+    <h2>8. Exclusão de conta e dados</h2>
+    <p>Para solicitar a exclusão de uma conta do Central Lava Jato ou dos dados pessoais associados, envie um e-mail para <strong>centrallavajato@gmail.com</strong>, utilizando o endereço cadastrado na conta, se possível. Informe se a solicitação se refere à conta do proprietário, à conta de funcionário ou a outros dados pessoais.</p>
+    <p>As solicitações serão analisadas e processadas conforme a legislação aplicável. Alguns dados poderão ser mantidos quando houver obrigação legal ou outra base jurídica que justifique sua conservação. A exclusão dos backups poderá ocorrer conforme os ciclos técnicos de retenção.</p>
 
-    <h2>9. Contato</h2>
-    <p>Em caso de dúvidas sobre esta Política de Privacidade ou sobre o tratamento dos seus dados, entre em contato conosco:</p>
-    <p><strong>E-mail de suporte:</strong> central@lavajato.com.br (Altere para o seu e-mail de suporte real antes de publicar).</p>
+    <h2>9. Permissões do dispositivo</h2>
+    <p>O aplicativo poderá solicitar acesso à câmera ou à galeria de imagens quando necessário para funcionalidades como registro de avarias, vistoria de veículos ou inclusão de logotipo. Essas permissões são utilizadas para viabilizar as funcionalidades solicitadas pelo usuário.</p>
+
+    <h2>10. Alterações nesta política</h2>
+    <p>Esta política poderá ser atualizada periodicamente. A data da última atualização será indicada no início da página.</p>
+
+    <h2>11. Contato</h2>
+    <p>Em caso de dúvidas sobre esta Política de Privacidade ou sobre o tratamento de dados pessoais, entre em contato:</p>
+    <p><strong>E-mail:</strong> <a href="mailto:centrallavajato@gmail.com">centrallavajato@gmail.com</a></p>
 
     <div class="footer">
         <p>© 2026 Central Lava Jato - Todos os direitos reservados.</p>
